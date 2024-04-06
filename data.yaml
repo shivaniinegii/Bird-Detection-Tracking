@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bird']
+
+roboflow:
+  workspace: vishu-l0e6u
+  project: bird-detection-0bkaa
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vishu-l0e6u/bird-detection-0bkaa/dataset/8
